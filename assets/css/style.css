@@ -8,6 +8,7 @@
   --dark: #1b1b1b;
   --content: #151616;
 }
+
 .light-background {
   background-color: var(--light);
   color: var(--dark);
@@ -24,6 +25,7 @@ body {
   font-family: Helvetica, Arial, sans-serif;
   color: var(--dark);
 }
+
 header {
   background-color: var(--dark);
   padding: 10px 20px 10px 0;
@@ -66,7 +68,7 @@ header a {
 
 header a:hover {
   background: #5db4b0;
-  color: var(--light);
+  color: var(--dark);
   border-bottom: 3px solid rgba(20, 23, 35, 0.5);
   border-radius: 15px;
   text-shadow: none;
@@ -96,16 +98,51 @@ header a:hover {
 #about-me {
   display: flex;
 }
+
 #about-me h3 {
   font-size: 40px;
   border-right: 3px solid var(--dark);
-  padding-right: var(--sidespace);
+  padding-right: 10px;
   text-align: right;
 }
 
 #about-me p {
   margin-bottom: auto;
   padding-left: 20px;
+}
+
+#contact-me {
+  display: flex;
+  margin-left: -33px;
+}
+
+#contact-me h3 {
+  font-size: 40px;
+  border-right: 3px solid var(--dark);
+  padding-right: 10px;
+  text-align: right;
+}
+
+#contact-me address {
+  display: flex;
+  align-items: center;
+  flex: auto;
+}
+
+#contact-me ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex: auto;
+}
+
+#contact-me li,
+#contact-me a {
+    font-size: 25px;
+  list-style: none;
+  text-decoration: none;
+  color: var(--dark);
+  border-bottom: 3px solid var(--content);
 }
 
 #work {
@@ -116,7 +153,7 @@ header a:hover {
 #work h3 {
   font-size: 40px;
   border-right: 3px solid var(--dark);
-  padding-right: var(--sidespace);
+  padding-right: 10px;
 }
 
 .container {
@@ -150,7 +187,9 @@ header a:hover {
 .item-1 {
   grid-column: 1 / span 2;
   grid-row: 1 / span 30;
-  background-image: url("../images/Run-Buddy.jpg");
+  background-image: url("../images/covid-19-tracker-screenshot-1.png");
+  background-size: auto;
+
 }
 
 .item-3 {
@@ -166,6 +205,7 @@ header a:hover {
   grid-column: 3 / span 1;
   grid-row: span 15;
 }
+
 @media screen and (max-width: 1080px) {
   .hero {
     padding-top: 190px;
