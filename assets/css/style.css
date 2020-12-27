@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  :root {
+    --light: #a2d4b1;
+    --dark: #1b1b1b;
+    --content: #a0a0a0;
+  }
+  /*start of root classes*/
+  .light-background {
+    background-color: var(--light);
+    color: var(--dark);
+    display: inline;
+  }
+  
+  .content-space {
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  /*end of root classes*/
