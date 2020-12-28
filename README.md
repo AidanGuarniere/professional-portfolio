@@ -1,7 +1,7 @@
 # Professional Portfolio
 
 ## User Story
-This portfolio was made to catalogue some of my favorite projects for any interested parties, be it employers or colleagues. I focused on the use of CSS Grid and Flexbox in order to achieve my desired layout.
+This portfolio was made to catalogue some of my previous projects and information for any interested parties, be it employers or colleagues. I focused on the use of CSS Grid and Flexbox in order to achieve my desired layout.
 
 ## Technologies Used
 - HTML
